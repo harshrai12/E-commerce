@@ -1,0 +1,120 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung Galaxy S21",
+        "price": 58999,
+        "image": "https://media.croma.com/image/upload/v1662441730/Croma%20Assets/Communication/Mobiles/Images/247562_lvgz2o.png",
+        "category": "phones",
+        "description": "The Samsung Galaxy S21 is a powerful smartphone with a stunning 6.2-inch Dynamic AMOLED 2X display. It features a triple rear camera setup and is powered by the Exynos 2100 processor. This flagship device offers a seamless user experience and outstanding performance. Ideal for photography enthusiasts and power users.",
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "name": "iPhone 13",
+        "price": 74999,
+        "image": "https://images.moneycontrol.com/static-mcnews/2021/10/Apple-iPhone-13-4.jpg?impolicy=website&width=1600&height=900",
+        "category": "phones",
+        "description": "The iPhone 13 is the latest flagship device from Apple, featuring an advanced A15 Bionic chip and improved camera capabilities. With its sleek design and powerful performance, the iPhone 13 offers a seamless user experience. Perfect for those looking for top-notch performance and a robust ecosystem.",
+        "rating": 4.8
+    },
+    {
+        "id": 3,
+        "name": "Dell XPS 13",
+        "price": 88999,
+        "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9320/media-gallery/xs9320nt-xnb-shot-5-1-sl.psd?fmt=pjpg&pscan=auto&scl=1&wid=4000&hei=4000&qlt=100,1&resMode=sharp2&size=4000,4000&chrss=full&imwidth=5000",
+        "category": "laptops",
+        "description": "The Dell XPS 13 is a premium ultrabook that combines sleek design with powerful performance. Equipped with the latest Intel processors and a vibrant display, it is a perfect choice for professionals and students alike. The XPS 13 offers a perfect blend of portability and productivity.",
+        "rating": 4.6
+    },
+    {
+        "id": 4,
+        "name": "MacBook Pro 2021",
+        "price": 149999,
+        "image": "https://www.digitaltrends.com/wp-content/uploads/2021/11/macbook-pro-2021-01.jpg?p=1",
+        "category": "laptops",
+        "description": "The MacBook Pro 2021 is a high-performance laptop that caters to the needs of creative professionals and power users. With the latest M1 Pro or M1 Max chip, it delivers exceptional processing power and graphics performance. The MacBook Pro is a top choice for users looking for cutting-edge technology and premium design.",
+        "rating": 4.9
+    },
+    {
+        "id": 5,
+        "name": "Apple Watch Series 7",
+        "price": 29999,
+        "image": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7-availability_hero_10052021_big.jpg.slideshow-xlarge_2x.jpg",
+        "category": "watches",
+        "description": "The Apple Watch Series 7 is a feature-rich smartwatch with a sleek design and a vibrant always-on display. It offers advanced health monitoring features and seamless integration with other Apple devices. The Apple Watch Series 7 is a must-have for fitness enthusiasts and tech-savvy individuals.",
+        "rating": 4.7
+    },
+    {
+        "id": 6,
+        "name": "Google Pixel 6",
+        "price": 52999,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbjhpPSbQXPcpWupzhdZFKU82OuWuPSkcjkg&usqp=CAU",
+        "category": "phones",
+        "description": "The Google Pixel 6 is a high-end smartphone with a focus on camera performance and clean Android software. With its powerful computational photography capabilities and seamless user experience, the Google Pixel 6 is an excellent choice for photography enthusiasts and users who prefer stock Android.",
+        "rating": 4.3
+    },
+    {
+        "id": 7,
+        "name": "HP Spectre x360",
+        "price": 94999,
+        "image": "https://img-cdn.tnwcdn.com/image?fit=1200%2C675&height=675&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F08%2FHP-Spectre-x360-14-1-of-7.jpg&signature=be2373b43e1088c3457ffd4f53fd987a",
+        "category": "laptops",
+        "description": "The HP Spectre x360 is a premium 2-in-1 laptop that combines elegant design with powerful performance. With its convertible form factor and high-quality display, it offers a versatile computing experience. The HP Spectre x360 is an ideal choice for users seeking a blend of style and productivity.",
+        "rating": 4.5
+    },
+    {
+        "id": 8,
+        "name": "Fitbit Versa 3",
+        "price": 7999,
+        "image": "https://www.fitbit.com/global/content/dam/fitbit/global/pdp/devices/versa-3/images/desktop/video.jpg",
+        "category": "watches",
+        "description": "The Fitbit Versa 3 is a stylish and feature-rich smartwatch with advanced health and fitness tracking capabilities. With its long battery life and user-friendly interface, it is an excellent companion for individuals leading an active lifestyle. The Fitbit Versa 3 is a top choice for fitness enthusiasts and health-conscious users.",
+        "rating": 4.2
+    },
+    {
+        "id": 9,
+        "name": "OnePlus 9 Pro",
+        "price": 64999,
+        "image": "https://cdn.dxomark.com/wp-content/uploads/medias/post-82583/OnePlus-9-Pro-featured-image-packshot-review.jpg",
+        "category": "phones",
+        "description": "The OnePlus 9 Pro is a flagship smartphone that offers top-tier performance and a premium design. With its high-refresh-rate display and versatile camera system, it provides a superior user experience. The OnePlus 9 Pro is an ideal choice for users seeking a powerful and well-rounded smartphone.",
+        "rating": 4.6
+    },
+    {
+        "id": 10,
+        "name": "Lenovo Yoga C940",
+        "price": 87999,
+        "image": "https://m.media-amazon.com/images/I/81FrL8818eL.jpg",
+        "category": "laptops",
+        "description": "The Lenovo Yoga C940 is a versatile 2-in-1 laptop that offers excellent performance and a premium build quality. With its flexible form factor and vibrant display, it is suitable for both work and entertainment. The Lenovo Yoga C940 is an excellent choice for users looking for a balance between productivity and entertainment.",
+        "rating": 4.4
+    },
+    {
+        "id": 11,
+        "name": "Xiaomi Mi 11",
+        "price": 45999,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmsgGiq_K8EsM3kwsIfjrjNCGxP1dL5qgiJFBh5OxAnxfb5zz8H1fKPW7mteTdRff60jM&usqp=CAU",
+        "category": "phones",
+        "description": "The Xiaomi Mi 11 is a high-performance smartphone with a focus on delivering flagship features at an affordable price. With its powerful processor and vibrant display, it provides a smooth user experience. The Xiaomi Mi 11 is an excellent choice for users seeking a budget-friendly yet capable smartphone.",
+        "rating": 4.2
+    },
+    {
+        "id": 12,
+        "name": "Acer Aspire 5",
+        "price": 49999,
+        "image": "https://www.notebookcheck.net/uploads/tx_nbc2/Xiaomi_Mi11_Ultra_2_4.jpg",
+        "category": "laptops",
+        "description": "The Acer Aspire 5 is a budget-friendly laptop that offers a balance between performance and affordability. With its reliable performance and comfortable keyboard, it is suitable for everyday tasks and light productivity. The Acer Aspire 5 is an ideal choice for students and home users on a budget.",
+        "rating": 4.0
+    },
+    {
+        "id": 13,
+        "name": "Fossil Gen 6",
+        "price": 14999,
+        "image": "https://images.hindustantimes.com/tech/img/2021/10/29/1600x900/Fossil_Gen_6_Final_1635477443415_1635478877261.jpg",
+        "category": "watches",
+        "description": "The Fossil Gen 6 is a stylish smartwatch with a classic design and modern features. With its comprehensive fitness tracking capabilities and customizable watch faces, it is suitable for users looking for a blend of style and functionality. The Fossil Gen 6 is a top choice for individuals seeking a fashion-forward smartwatch.",
+        "rating": 4.1
+    }
+  ]
+  
