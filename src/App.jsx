@@ -5,7 +5,7 @@ import Navigation from './components/Navigation';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Carts from './components/Carts';
 import Banner from './components/Banner';
-import Register from './components/auth/register';
+import Register from './components/auth/Register';
 import Login from './components/auth/Login';
 import Product_read from './components/product_read';
 import { useSelector } from 'react-redux';
