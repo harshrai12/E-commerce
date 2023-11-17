@@ -7,7 +7,7 @@ import Carts from './components/Carts';
 import Banner from './components/Banner';
 import Register from './components/auth/Register';
 import Login from './components/auth/Login';
-import Product_read from './components/product_read';
+import Product_read from './components/Product_read.jsx';
 import { useSelector } from 'react-redux';
 import { selectUser } from './redux/userSlice';
 import Warning from './components/Warning';
