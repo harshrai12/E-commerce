@@ -9,7 +9,7 @@ const ProductList = ({ state, products }) => {
 
   const handleChange = (e) => {
     setCategory(e.target.value);
-    setCurrentPage(1); 
+    setCurrentPage(1);
   };
 
   const filteredProducts = category
@@ -29,22 +29,27 @@ const ProductList = ({ state, products }) => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
-    <div className="pagename">
-      <div className="filter">
-        <p>Category</p>
-        <select onChange={handleChange}>
-          {categories.map((category, index) => (
-            <option key={index} value={category}>
-              {category}
-            </option>
-          ))}
-        </select>
+    <div className="container px-40 mt-10">
+      <div className="flex items-center mb-4">
+        <div className="flex items-center">
+          <p className="mr-2">Category:</p>
+          <select
+            className="border p-2 rounded"
+            onChange={handleChange}
+          >
+            {categories.map((category, index) => (
+              <option key={index} value={category}>
+                {category}
+              </option>
+            ))}
+          </select>
+        </div>
       </div>
 
-      <div className="product-list">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
         {currentProducts.map((product) => (
           <Product
-            key={product.id} 
+            key={product.id}
             id={product.id}
             name={product.name}
             price={product.price}
@@ -53,9 +58,15 @@ const ProductList = ({ state, products }) => {
         ))}
       </div>
 
-      <div className="pagination">
+      <div className="flex justify-center mt-4">
         {Array.from({ length: Math.ceil(filteredAndPagedProducts.length / productsPerPage) }).map((_, index) => (
-          <button key={index} onClick={() => paginate(index + 1)}>
+          <button
+            key={index}
+            onClick={() => paginate(index + 1)}
+            className={`mx-1 px-3 py-2 rounded ${
+              currentPage === index + 1 ? 'bg-blue-500 text-white' : 'bg-gray-300 text-gray-700'
+            }`}
+          >
             {index + 1}
           </button>
         ))}
@@ -65,5 +76,6 @@ const ProductList = ({ state, products }) => {
 };
 
 export default ProductList;
+
 
 

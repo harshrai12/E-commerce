@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&family=Montserrat:wght@200&family=Poppins:wght@300&display=swap');
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 *{
   margin: 0;
   font-family: 'Jost', sans-serif;
@@ -67,31 +69,26 @@ font-family: 'Poppins', sans-serif;
   /* Navigation.css */
 /* Navigation.css */
 
+/* Add this CSS to your stylesheet or component */
+
+/* Navigation.css */
 nav {
   background: linear-gradient(to right, #4f60fe, #131515);
   padding: 10px;
-
-
 }
 
-.searchbox{
-  position: relative;
-  left:50px;
-  width:250px
-}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap; /* Allow items to wrap into multiple lines */
   justify-content: space-between;
-
 }
 
 li {
-  margin-right: 20px;
-  
+  margin-bottom: 10px; /* Adjust the spacing between items */
 }
 
 a {
@@ -103,61 +100,22 @@ input[type="text"] {
   padding: 8px;
   border-radius: 5px;
   border: 1px solid #ddd;
+  width: 350px; /* Make the input full width */
 }
 
-button {
-  padding: 8px 16px;
-  border-radius: 5px;
-  border: 1px solid transparent;
-  background-color: #0d7e84;
-  color: white;
-}
-
-button:hover {
-  background-color: #7f7979;
-}
-
-
-.cart-container {
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 5px;
-}
-
-.cart-title {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.cart-list {
+.buttons {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  padding: 0;
+  padding: 15px;
+  gap: 10px;
 }
 
-.cart-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.cart-image {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  margin-right: 10px;
-  border-radius: 5px;
-}
-
+/* Banner.css */
 .banner {
   background: linear-gradient(to right, #4f60fe, #131515);
   text-align: center;
   padding: 20px 0;
-  height: 200px;
+  height: auto; /* Allow the height to adjust based on content */
 }
 
 .shop {
@@ -165,12 +123,13 @@ button:hover {
 }
 
 .banner-text {
-  display:flex;
-  justify-content: center;
-  align-items: center;
   font-size: 3em;
-  padding: 40px;
+  padding: 20px;
 }
+
+/* Add more responsive styles as needed */
+
+/* Adjust other styles as needed for responsiveness */
 
 .buttons{
   display: flex;
@@ -220,6 +179,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap:20px
 }
 
 .cartnumber{
@@ -252,4 +212,75 @@ align-items: center;
 
 .pagination button:hover {
   background-color: #98d69b;
+}
+
+
+/* Add this CSS to your stylesheet or component */
+
+/* Add this CSS to your stylesheet or component */
+.cart-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cart-list {
+  display: grid;
+  gap: 20px;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.cart-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.item-details p {
+  margin: 0;
+}
+
+.item-actions button {
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.item-actions button:hover {
+  background-color: #45a049;
+}
+
+.remove-button {
+  background-color: #f44336;
+}
+
+.remove-button:hover {
+  background-color: #d32f2f;
+}
+
+.total-amount {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
 }

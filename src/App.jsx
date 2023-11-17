@@ -1,13 +1,10 @@
-// App.js
-
-import React, { useState, useEffect } from 'react';
+import React, { useState,} from 'react';
 import ProductList from "./components/Product-list";
 import data from './components/data.json';
 import Navigation from './components/Navigation';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Carts from './components/Carts';
 import Banner from './components/Banner';
-import { auth } from './firebase-config'; 
 import Register from './components/auth/register';
 import Login from './components/auth/Login';
 import Product_read from './components/product_read';
@@ -27,7 +24,6 @@ const App = () => {
     <Navigation state={state} setState={setState} />
     <Banner />
     <Routes>
-        
         {!user ? (
             <>
                 <Route path="/register" element={<Register />} />
@@ -45,7 +41,6 @@ const App = () => {
         )}
     </Routes>
 </div>
-
         <div></div>
       </div>
     </BrowserRouter>
