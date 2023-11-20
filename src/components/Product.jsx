@@ -22,11 +22,11 @@ const Product = ({ id, name, price, image }) => {
   };
 
   return (
-    <div className="px-6 py-4 flex flex-col justify-between h-full">
+    <div className=" py-4 flex flex-col justify-between h-full">
       <div className="flex-grow">
         {/* Content above */}
         <img
-          className="w-full object-contain h-48 md:h-80 lg:h-96"
+          className="product-image"
           src={image}
           alt={name}
         />
