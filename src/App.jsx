@@ -11,12 +11,11 @@ import Product_read from './components/Product_read.jsx';
 import { useSelector } from 'react-redux';
 import { selectUser } from './redux/userSlice';
 import Warning from './components/Warning';
+import Checkout from './components/Checkout.jsx';
 
 const App = () => {
   const [state, setState] = useState(''); 
-  console.log(state)
   const user = useSelector(selectUser);
-  console.log(state);
   return (
     <BrowserRouter>
       <div className="app">
@@ -30,12 +29,12 @@ const App = () => {
                 <Route path="/login" element={<Login />} />
                 <Route path="/" element={<Warning/>} />
                 <Route path="/cart" element={<Warning/>} />
-                
             </>
         ) : (
             <>
             <Route path="/" element={<ProductList state={state} products={data} />} />
             <Route path="/cart" element={<Carts />} />
+            <Route path="/Checkout" element={<Checkout/>} />
             <Route path="/product/:id" element={<Product_read />} />
             </>
         )}

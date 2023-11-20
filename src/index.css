@@ -217,6 +217,7 @@ align-items: center;
 
 /* Add this CSS to your stylesheet or component */
 
+
 /* Add this CSS to your stylesheet or component */
 .cart-container {
   max-width: 600px;
@@ -284,3 +285,85 @@ align-items: center;
   font-size: 18px;
   font-weight: bold;
 }
+
+
+
+.checkout-container {
+  max-width: 3xl;
+  margin: auto;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.details-form {
+  width: 100%;
+  max-width: 2/3;
+  padding-right: 8px;
+}
+
+.form-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-summary {
+  width: 100%;
+  max-width: 1/3;
+}
+
+.grid {
+  display: grid;
+  gap: 8px;
+}
+
+.grid-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 8px;
+  align-items: center;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.product-quantity {
+  color: #666;
+}
+

@@ -14,7 +14,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="overflow-hidden"> {/* Add overflow-hidden class here */}
+    <div className="overflow-hidden">
       <Slider {...settings} className="banner">
         <div className="shop">
           <h1 className="banner-text">TechNest</h1>

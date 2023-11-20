@@ -39,7 +39,7 @@ const Navigation = ({ state, setState }) => {
             <div className="cartinfo">
               <button
                 onClick={handleLogout}
-                className="text-white ml-4 hover:underline"
+                className="text-white ml-4 hover:underline bg-blue-500"
               >
                 Logout
               </button>

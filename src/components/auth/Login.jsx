@@ -12,7 +12,6 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-  
     const storedUserData = JSON.parse(localStorage.getItem('user'));
     if (storedUserData && storedUserData.email === email && storedUserData.password === password) {
       dispatch(login(storedUserData));
