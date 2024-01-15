@@ -22,19 +22,20 @@ const Product = ({ id, name, price, image }) => {
   };
 
   return (
-    <div className=" py-4 flex flex-col justify-between h-full">
-      <div className="flex-grow">
-        {/* Content above */}
-        <img
-          className="product-image"
-          src={image}
-          alt={name}
-        />
+    <div className=" flex flex-col justify-between " >
+      <div className=''>
+      <div className="h-40 " >
+       <img
+      src={image}
+      alt={name}
+      className='w-40'
+    /></div>
+       <div className="mt-20"> 
         <h3 className="font-bold text-xl mb-2">{name}</h3>
         <p className="text-gray-700">Rs:{price}</p>
-      </div>
+      
       <div className="flex-shrink-0">
-        {/* Buttons at the bottom */}
+    
         <button
           className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue"
           onClick={handleAddToCart}
@@ -47,11 +48,14 @@ const Product = ({ id, name, price, image }) => {
           </button>
         </Link>
       </div>
+      </div>
+      </div>
     </div>
   );
 };
 
 export default Product;
+
 
 
 

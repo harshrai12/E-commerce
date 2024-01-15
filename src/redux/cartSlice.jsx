@@ -1,4 +1,4 @@
-// cartSlice.js
+
 
 import { createSlice } from '@reduxjs/toolkit';
 
@@ -18,7 +18,7 @@ const cartSlice = createSlice({
         name,
         price,
         image,
-        quantity: 1, // Initial quantity is set to 1
+        quantity: 1, 
       });
       state.totalAmount += price;
     },
@@ -36,15 +36,14 @@ const cartSlice = createSlice({
       const product = state.cart.find((item) => item.id === productId);
     
       if (product) {
-        // Update the total amount based on the change in quantity
+        
         state.totalAmount += quantity * product.price;
     
-        // Check if quantity is a valid number
+       
         if (!isNaN(quantity)) {
-          // Update the quantity of the specific product
+         
           product.quantity += quantity;
     
-          // Remove the product from the cart if the quantity becomes zero
           if (product.quantity === 0) {
             state.cart = state.cart.filter((item) => item.id !== productId);
           }

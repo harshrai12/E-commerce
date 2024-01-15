@@ -5,90 +5,81 @@
 *{
   margin: 0;
   font-family: 'Jost', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-
 .app {
-    text-align: center;
-  }
-  
-  .app h1 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+  text-align: center;
+}
 
-  .product {
-    border: 1px solid #fefefe;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
-    width: 200px;
-    text-align: center;
-    background-color: #e9e6e6;
-    border-radius: 5%;
-  }
-  
-  .product img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .product h3 {
-    margin: 10px 0;
-  }
-  
-  .product button {
-    background-color: #556156;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .product button:hover {
-    background-color: #45a049;
-  }
-  
+.app h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
-  .product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  /* Navigation.css */
-/* Navigation.css */
+.product {
+  border: 1px solid #fefefe;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  background-color: #e9e6e6;
+  border-radius: 5%;
+}
 
-/* Add this CSS to your stylesheet or component */
+.product img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
-/* Navigation.css */
+.product h3 {
+  margin: 10px 0;
+}
+
+.product button {
+  background-color: #556156;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product button:hover {
+  background-color: #45a049;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 nav {
   background: linear-gradient(to right, #4f60fe, #131515);
   padding: 10px;
 }
-
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap into multiple lines */
+  flex-wrap: wrap; 
   justify-content: space-between;
 }
 
 li {
-  margin-bottom: 10px; /* Adjust the spacing between items */
+  margin-bottom: 10px; 
 }
 
 a {
@@ -100,7 +91,7 @@ input[type="text"] {
   padding: 8px;
   border-radius: 5px;
   border: 1px solid #ddd;
-  width: 350px; /* Make the input full width */
+  width: 350px; 
 }
 
 .buttons {
@@ -110,12 +101,11 @@ input[type="text"] {
   gap: 10px;
 }
 
-/* Banner.css */
 .banner {
   background: linear-gradient(to right, #4f60fe, #131515);
   text-align: center;
   padding: 20px 0;
-  height: auto; /* Allow the height to adjust based on content */
+  height: auto; 
 }
 
 .shop {
@@ -127,32 +117,26 @@ input[type="text"] {
   padding: 20px;
 }
 
-/* Add more responsive styles as needed */
-
-/* Adjust other styles as needed for responsiveness */
-
-.buttons{
+.buttons {
   display: flex;
   flex-direction: column;
   padding: 15px;
   gap:10px;
 }
 
-
-
 .product-details {
   border: 1px solid #ddd;
   padding: 100px;
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
- 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.detailsdiv{
+.detailsdiv {
   width: 50%;
 }
+
 .product-details img {
   width: 200px;
   height: auto;
@@ -175,25 +159,24 @@ align-items: center;
   margin: 20px;
 }
 
-.cartinfo{
+.cartinfo {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:20px
+  gap: 20px;
 }
 
-.cartnumber{
+.cartnumber {
   color: rgb(245, 245, 245);
   background-color: red;
   padding: 5px;
   border-radius: 25%;
   width: 10px;
-  
-  position: relative;
-  top:-5px;
-  left:2px;
-}
 
+  position: relative;
+  top: -5px;
+  left: 2px;
+}
 
 .pagination {
   display: flex;
@@ -214,11 +197,6 @@ align-items: center;
   background-color: #98d69b;
 }
 
-
-/* Add this CSS to your stylesheet or component */
-
-
-/* Add this CSS to your stylesheet or component */
 .cart-container {
   max-width: 600px;
   margin: 0 auto;
@@ -285,8 +263,6 @@ align-items: center;
   font-size: 18px;
   font-weight: bold;
 }
-
-
 
 .checkout-container {
   max-width: 3xl;
@@ -367,11 +343,9 @@ button {
   color: #666;
 }
 
-
-
 @media screen and (max-width: 768px) {
   .product-image {
     height: 100px;
-    width:100px /* Set a fixed height for small screens */
+    width:100px; 
   }
 }

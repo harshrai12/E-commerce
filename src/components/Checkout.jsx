@@ -20,17 +20,15 @@ const Checkout = () => {
   };
 
   const handlePayment = () => {
-    // You can implement the payment logic here
-    // For simplicity, let's just navigate back to the home page after payment
-    alert('Payment Successful!'); // Replace with your actual payment logic
-
-    // Assuming '/' is your home route
+    
+    alert('Payment Successful!'); 
+   
     navigate('/');
   };
 
   return (
     <div className="max-w-7xl mx-auto p-8 flex">
-      {/* Details Form Column */}
+      
       <div className="w-1/2 pr-8">
       <h2 className="text-xl font-bold mb-4">Your Details</h2>
       <form>
@@ -87,7 +85,7 @@ const Checkout = () => {
     
 
 
-      {/* Order Summary Column */}
+      
       <div className="w-1/2 flex flex-col items-center">
       <h2 className="text-xl font-bold mb-4 mt-4">Order Summary</h2>
       <div className="grid gap-4">
@@ -95,7 +93,7 @@ const Checkout = () => {
           <div key={product.id} className="flex flex-col items-center gap-2">
             <p className="text-lg font-bold">{product.name}</p>
             <p className="text-gray-600">Quantity: {product.quantity}</p>
-            {/* ... Display other product details */}
+           
           </div>
         ))}
       </div>
